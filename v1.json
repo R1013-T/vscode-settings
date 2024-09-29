@@ -1,0 +1,371 @@
+{
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrap": "on",
+  "terminal.integrated.inheritEnv": false,
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.unicodeHighlight.includeStrings": false,
+  "editor.unicodeHighlight.includeComments": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "cSpell.userWords": [
+    "Astro",
+    "auther",
+    "autolingual",
+    "Bento",
+    "biomejs",
+    "brank",
+    "Chara",
+    "clsx",
+    "datasources",
+    "echojwt",
+    "enan",
+    "fastapi",
+    "Firestore",
+    "giftjob",
+    "GLTF",
+    "gorm",
+    "gsap",
+    "Gsap",
+    "Gunma",
+    "heroicons",
+    "hitokan",
+    "hono",
+    "hookform",
+    "instanceof",
+    "Mantine",
+    "microcms",
+    "mystudy",
+    "noflex",
+    "notionhq",
+    "openai",
+    "patt",
+    "persistor",
+    "Photoshop",
+    "Pressable",
+    "qiita",
+    "rarr",
+    "Ryunosuke",
+    "Signin",
+    "Signup",
+    "singup",
+    "supabase",
+    "tailwindcss",
+    "Takahashi",
+    "tanstack",
+    "Todos",
+    "trpc",
+    "tsup",
+    "typecheck",
+    "typeof",
+    "unsub",
+    "usecase",
+    "uuidv4",
+    "yoyo",
+    "zastand",
+    "zustand"
+  ],
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "emmet.triggerExpansionOnTab": true,
+  "git.useEditorAsCommitInput": false,
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "javascript": "javascriptreact"
+  },
+
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF9796",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#719DDC",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.variables": {
+    "lang": "ja"
+  },
+  "json.schemas": [],
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "cSpell.overrides": [],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+
+  "markdown-pdf.styles": [
+    "/Users/takahashiryuunosuke/MarkdownPDFstyles/style.css",
+    "../../../../../takahashiryuunosuke/MarkdownPDFstyles/style.css"
+  ],
+  "markdown-pdf.outputDirectory": "/Users/takahashiryuunosuke/Desktop",
+
+  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/zulu-20.jdk/Contents/Home",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "reactSnippets.settings.prettierEnabled": true,
+  "editor.inlineSuggest.showToolbar": "always",
+  "php.validate.executablePath": "",
+  "php.debug.executablePath": "",
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  // "editor.fontFamily": "'JetBrains Mono','Hack Nerd Font',Cica,'MesloLGS NF', Menlo, Monaco, 'Courier New', monospace",
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.editor.empty.hint": "hidden",
+  // "workbench.colorTheme": "Nord Flat",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "hediet.vscode-drawio.resizeImages": null,
+
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "workbench.activityBar.location": "bottom",
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} - Page",
+    "**/app/**/layout.tsx": "${dirname} - Layout",
+    "**/index.tsx": "${dirname} - index.tsx",
+    "**/index.ts": "${dirname} - index.ts",
+    "**/main.py": "${dirname} - main.py"
+  },
+  "editor.accessibilitySupport": "off",
+
+  "accessibility.signals.chatRequestSent": {
+    "sound": "off"
+  },
+  "accessibility.signals.clear": { "sound": "off" },
+  "accessibility.signals.lineHasFoldedArea": { "sound": "off" },
+  "accessibility.signals.lineHasInlineSuggestion": { "sound": "off" },
+  "accessibility.signals.noInlayHints": { "sound": "off" },
+  "accessibility.signals.notebookCellCompleted": { "sound": "off" },
+  "accessibility.signals.onDebugBreak": { "sound": "off" },
+  "accessibility.signals.notebookCellFailed": { "sound": "off" },
+  "accessibility.signals.taskCompleted": { "sound": "off" },
+  "accessibility.signals.terminalQuickFix": { "sound": "off" },
+  "accessibility.signals.terminalCommandFailed": { "sound": "off" },
+  "accessibility.signals.terminalBell": { "sound": "off" },
+  "accessibility.signals.taskFailed": { "sound": "off" },
+  "accessibility.signals.lineHasWarning": { "sound": "off" },
+  "accessibility.signals.lineHasError": { "sound": "off" },
+  "accessibility.signals.lineHasBreakpoint": { "sound": "off" },
+  "accessibility.signals.diffLineModified": { "sound": "off" },
+  "accessibility.signals.diffLineInserted": { "sound": "off" },
+  "accessibility.signals.diffLineDeleted": {
+    "sound": "off"
+  },
+  "accessibility.signals.progress": {
+    "sound": "off"
+  },
+  "gitlens.views.commits.files.layout": "list",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "go.toolsManagement.autoUpdate": true,
+  "dart.flutterSdkPath": "/Users/takahashiryuunosuke/flutter",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.size": "fit",
+
+  // open json editor for settings
+  "workbench.settings.editor": "json",
+
+  // Theme
+  // "workbench.colorTheme": "Moxer",
+  "workbench.colorTheme": "Aura Dark",
+  "workbench.iconTheme": "catppuccin-perfect-ayu",
+
+  // Change font
+  "editor.fontFamily": "Geist Mono",
+  "scm.inputFontFamily": "Geist Mono",
+  "terminal.integrated.fontFamily": "'JetBrains Mono','Hack Nerd Font'",
+  "chat.editor.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "notebook.output.fontFamily": "Geist Mono",
+  "markdown.preview.fontFamily": "Geist Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
+
+  // Font size
+  "editor.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
+
+  // APC
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 28
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 12,
+      "y": 10
+    }
+  },
+  "apc.font.family": "Geist Mono",
+  "apc.monospace.font.family": "Geist Mono",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 28,
+    "fontSize": 12
+  },
+
+  // ui
+  "window.commandCenter": false,
+  "editor.scrollbar.vertical": "auto",
+  "window.titleBarStyle": "custom",
+  "editor.scrollbar.horizontal": "auto",
+
+  // Aura theme customisation
+  "workbench.colorCustomizations": {
+    "[Aura Dark]": {
+      "editor.background": "#110f17",
+      "editor.inlineValuesForeground": "#ff0000",
+      "terminal.background": "#110f17",
+      "activityBar.background": "#110f17",
+      "statusBar.background": "#110f17",
+      "editorGroupHeader.tabsBackground": "#110f17",
+      "tab.inactiveBackground": "#110f17"
+    },
+
+    "editor.selectionBackground": "#c979f793",
+    "editor.findMatchHighlightBackground": "#c526ff67",
+    "editor.findMatchBorder": "#ffffff",
+    "editor.findMatchBackground": "#ae00ff"
+  },
+
+  "editor.tokenColorCustomizations": {
+    "keywords": "#e79c76", //定数・変数宣言
+    "strings": "#15a273", //文字列（"〜"の中の文字色）
+    "comments": "#d6d6d6bc", //コメントの色
+
+    "textMateRules": [
+      {
+        "scope": "entity.other.attribute-name", //HTML属性
+        "settings": {
+          "foreground": "#15a29d"
+        }
+      },
+      {
+        //タグ「< />」の色
+        "scope": "punctuation.definition.tag.begin, punctuation.definition.tag.end",
+        "settings": {
+          "foreground": "#949494"
+        }
+      },
+      {
+        "scope": "meta.jsx.children.tsx",
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      }
+    ]
+  },
+
+  // Misc
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "playwright.reuseBrowser": false,
+}
