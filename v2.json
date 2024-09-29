@@ -1,0 +1,155 @@
+{
+  // Editor settings
+  "editor.renderWhitespace": "boundary", // 空白の表示を制限
+  "editor.wordWrap": "on", // テキストの折り返しを有効に
+  "editor.unicodeHighlight.includeStrings": false, // 文字列内のUnicodeハイライトを無効
+  "editor.unicodeHighlight.includeComments": false, // コメント内のUnicodeハイライトを無効
+  "editor.unicodeHighlight.nonBasicASCII": false, // 基本ASCII外のハイライトを無効
+  "editor.inlineSuggest.enabled": true, // インラインサジェストを有効化
+  "editor.inlineSuggest.showToolbar": "always", // インラインサジェストのツールバーを常に表示
+  "editor.formatOnType": true, // 入力時にフォーマットを適用
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // デフォルトフォーマッターを設定
+  "editor.fontSize": 12, // エディターのフォントサイズ
+  "editor.guides.indentation": true, // インデントガイドラインを有効化
+  "editor.guides.highlightActiveIndentation": true, // アクティブなインデントをハイライト
+  "editor.cursorSmoothCaretAnimation": "on", // カーソル移動を滑らかにする
+
+  // Terminal settings
+  "terminal.integrated.inheritEnv": false, // ターミナルで環境変数の継承を無効化
+  "terminal.integrated.fontSize": 12, // ターミナルのフォントサイズ
+  "terminal.integrated.fontFamily": "'JetBrains Mono','Hack Nerd Font'", // ターミナルのフォントファミリー
+  "terminal.integrated.shell.linux": "/bin/zsh", // Linuxでデフォルトのシェルをzshに設定
+  "terminal.integrated.shellArgs.linux": ["-l"], // シェルの起動時に引数を追加
+
+  // Formatting settings for specific languages
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+
+  // Git settings
+  "git.autofetch": true, // Gitの自動フェッチを有効化
+  "git.enableSmartCommit": true, // スマートコミットを有効化
+  "git.confirmSync": false, // 同期の確認を無効化
+  "git.useEditorAsCommitInput": false, // コミットメッセージ入力にエディタを使用しない
+  "git.openRepositoryInParentFolders": "never", // 親フォルダのリポジトリを開かない設定
+
+  // Live Server settings
+  "liveServer.settings.donotShowInfoMsg": true, // 情報メッセージを非表示
+  "liveServer.settings.donotVerifyTags": true, // タグの検証をしない
+
+  // Emmet settings
+  "emmet.triggerExpansionOnTab": true, // タブでEmmet展開を有効化
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.showSuggestionsAsSnippets": true, // Emmetの提案をスニペットとして表示
+  "emmet.variables": {
+    "lang": "ja"
+  },
+
+  // Miscellaneous settings
+  "explorer.confirmDelete": false, // ファイル削除時の確認を無効化
+  "explorer.confirmDragAndDrop": false, // ドラッグ&ドロップ時の確認を無効化
+  "workbench.startupEditor": "none", // 起動時のエディタを無効化
+  "workbench.settings.editor": "json", // JSONエディタを設定エディタとして使用
+  "workbench.colorTheme": "Aura Dark", // 使用するテーマ
+  "workbench.iconTheme": "catppuccin-perfect-ayu", // アイコンテーマを設定
+  "window.commandCenter": false, // コマンドセンターを無効化
+  "window.titleBarStyle": "custom", // タイトルバーのスタイルをカスタムに設定
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "github.copilot.editor.enableAutoCompletions": true, // Copilotの自動補完を有効化
+  "typescript.updateImportsOnFileMove.enabled": "always", // ファイル移動時にインポートを更新
+
+  // Accessibility settings
+  "editor.accessibilitySupport": "off", // アクセシビリティサポートを無効化
+  "accessibility.signals.chatRequestSent": { "sound": "off" },
+  "accessibility.signals.clear": { "sound": "off" },
+  "accessibility.signals.lineHasFoldedArea": { "sound": "off" },
+  "accessibility.signals.lineHasInlineSuggestion": { "sound": "off" },
+  "accessibility.signals.noInlayHints": { "sound": "off" },
+  "accessibility.signals.notebookCellCompleted": { "sound": "off" },
+  "accessibility.signals.onDebugBreak": { "sound": "off" },
+  "accessibility.signals.notebookCellFailed": { "sound": "off" },
+  "accessibility.signals.taskCompleted": { "sound": "off" },
+  "accessibility.signals.terminalQuickFix": { "sound": "off" },
+  "accessibility.signals.terminalCommandFailed": { "sound": "off" },
+  "accessibility.signals.terminalBell": { "sound": "off" },
+  "accessibility.signals.taskFailed": { "sound": "off" },
+  "accessibility.signals.lineHasWarning": { "sound": "off" },
+  "accessibility.signals.lineHasError": { "sound": "off" },
+  "accessibility.signals.lineHasBreakpoint": { "sound": "off" },
+  "accessibility.signals.diffLineModified": { "sound": "off" },
+  "accessibility.signals.diffLineInserted": { "sound": "off" },
+  "accessibility.signals.diffLineDeleted": { "sound": "off" },
+  "accessibility.signals.progress": { "sound": "off" },
+
+  // Other settings (UI and theme customization)
+  "workbench.activityBar.location": "bottom", // アクティビティバーを下部に配置
+  "workbench.editor.empty.hint": "hidden", // 空のエディターヒントを非表示
+  "editor.fontFamily": "Geist Mono", // エディターのフォントファミリー
+  "editor.minimap.renderCharacters": false, // ミニマップで文字を表示しない
+  "editor.minimap.size": "fit", // ミニマップのサイズを調整
+  "editor.bracketPairColorization.enabled": true, // 括弧のペア色付けを有効化
+  "editor.guides.bracketPairs": true, // 括弧ペアのガイドを表示
+
+  // Better Comments settings
+  "better-comments.tags": [
+    { "tag": "!", "color": "#FF9796", "bold": true },
+    { "tag": "?", "color": "#719DDC" },
+    { "tag": "//", "color": "#474747", "strikethrough": true },
+    { "tag": "todo", "color": "#FF8C00" },
+    { "tag": "*", "color": "#98C379" }
+  ],
+
+  // File management settings
+  "files.autoSave": "afterDelay", // 遅延保存（一定時間後に自動保存）
+  "files.autoSaveDelay": 1000, // 1秒後に自動保存
+}
